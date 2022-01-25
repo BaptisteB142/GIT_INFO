@@ -1,5 +1,4 @@
-# TreeGame
-Pygame tutorial with Graven on YouTube  
+# GIT MAIN COMMANDS 
 
 git init  
 git status  
