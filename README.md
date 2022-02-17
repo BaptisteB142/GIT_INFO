@@ -2,8 +2,11 @@
 
 # Moving around tree + infos
 git status  
+
 git log 
+
 git checkout -b branch_name //-b create a new branch
+
 git merge branch_name --no-commit //Then check and commit
 
 
