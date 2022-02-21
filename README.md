@@ -12,9 +12,9 @@ git merge branch_name --no-commit //Then check and commit
 
 
 # Create a new repository on the command line
-git config user.name "BaptisteB"
+git config --global user.name "BaptisteB"
 
-git config user.email "xxx"
+git config --global user.email "xxx"
 
 echo "# GIT" >> README.md
 
