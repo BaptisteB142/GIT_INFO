@@ -14,6 +14,10 @@ composer require symfony/ldap
 symfony make:controller Home
 ```
 
+- Webpack/Encore
+```
+npm run build
+```
 - Générer les routes Symfony vers JS
 ```
 php bin/console fos:js-routing:dump --format=json --target=public/js/fos_js_routes.json
