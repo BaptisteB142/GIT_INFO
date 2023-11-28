@@ -8,16 +8,23 @@ symfony console list make
 - Initialisation projet
 ```
 symfony new my_project_dir --version="6.3.*" -webapp
-composer require symfony/webpack-encore-bundle
-npm install
+
+Voir WEBPACK/Encore
+
+composer require symfony/stimulus-bundle
+composer require symfony/ux-chartjs
 composer require symfony/ldap
+
 symfony make:controller Home
 ```
 
 - Webpack/Encore
 ```
+composer require symfony/webpack-encore-bundle
+npm install
 npm install sass-loader sass webpack --save-dev
 npm install bootstrap
+npm install chart.js
 npm run build
 ```
 - Générer les routes Symfony vers JS
@@ -37,6 +44,7 @@ composer update --with-all-dependencies
 
 - Installer assets frontend
 ```
+npm install
 npm run watch/build
 ```
 
