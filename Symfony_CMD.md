@@ -16,6 +16,8 @@ symfony make:controller Home
 
 - Webpack/Encore
 ```
+npm install sass-loader sass webpack --save-dev
+npm install bootstrap
 npm run build
 ```
 - Générer les routes Symfony vers JS
