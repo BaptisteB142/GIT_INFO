@@ -52,3 +52,17 @@ npm run watch/build
 ```
 symfony server:start
 ```
+
+
+## Ajout d'extensions PHP
+
+- Se rendre dans le dossier suivant et copier les .dll :
+```
+C:\xampp\php\ext
+=> ex : php_sqlsrv_82_ts_x64.dll
+```
+- Éditer le fichier php.ini et activer les extensions :
+```
+C:\xampp\php\php.ini
+=> ex : extension=php_sqlsrv_82_ts_x64
+```
