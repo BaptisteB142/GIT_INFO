@@ -23,6 +23,14 @@ symfony make:controller Home
 composer require symfony/webpack-encore-bundle
 npm install
 npm install sass-loader sass webpack --save-dev
+npm install file-loader@^6.0.0 --save-dev
+
+==> add to webpack.config.js :
+.copyFiles({
+        from: './assets/images',
+        to: 'images/[path][name].[hash:8].[ext]'
+    })
+
 npm install bootstrap
 npm install chart.js
 npm run build
