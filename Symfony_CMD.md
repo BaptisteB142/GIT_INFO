@@ -14,6 +14,7 @@ Voir WEBPACK/Encore
 composer require symfony/stimulus-bundle
 composer require symfony/ux-chartjs
 composer require symfony/ldap
+composer require --dev symfony/maker-bundle
 
 symfony make:controller Home
 ```
@@ -40,25 +41,30 @@ npm run build
 php bin/console fos:js-routing:dump --format=json --target=public/js/fos_js_routes.json
 ```
 
-- Installer pour prod
+- Compsoer install dev
+```
+composer require --dev symfony/maker-bundle
+```
+- Composer install prod
 ```
 composer install --no-dev --optimize-autoloader
 ```
 
-- Mettre à jour
+- Composer update
 ```
 composer update --with-all-dependencies
 ```
 
-- Installer assets frontend
+- Install frontend assets
 ```
 npm install
 npm run watch/build
 ```
 
-- Démarrer le serveur local
+- Local Server
 ```
 symfony server:start
+symfony server:stop
 ```
 
 
