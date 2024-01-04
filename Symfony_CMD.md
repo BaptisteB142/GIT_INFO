@@ -41,7 +41,7 @@ npm run build
 php bin/console fos:js-routing:dump --format=json --target=public/js/fos_js_routes.json
 ```
 
-- Compsoer install dev
+- Composer install dev
 ```
 composer require --dev symfony/maker-bundle
 ```
@@ -79,4 +79,9 @@ C:\xampp\php\ext
 ```
 C:\xampp\php\php.ini
 => ex : extension=php_sqlsrv_82_ts_x64
+```
+- Ajouter l'extension intl ( international )
+```
+C:\xampp\php\php.ini
+=> ex : extension=php_intl.dll
 ```
