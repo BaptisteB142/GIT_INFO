@@ -37,7 +37,10 @@ npm install chart.js
 npm run build
 ```
 - Générer les routes Symfony vers JS
+see https://github.com/FriendsOfSymfony/FOSJsRoutingBundle/blob/master/Resources/doc/installation.rst
 ```
+composer require friendsofsymfony/jsrouting-bundle
+npm i fos-router
 php bin/console fos:js-routing:dump --format=json --target=public/js/fos_js_routes.json
 ```
 
