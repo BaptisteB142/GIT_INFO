@@ -49,11 +49,11 @@ npm i fos-router
 php bin/console fos:js-routing:dump --format=json --target=public/js/fos_js_routes.json
 ```
 
-- Composer install dev
+- Composer install dependancy for dev
 ```
 composer require --dev symfony/maker-bundle
 ```
-- Composer install prod
+- Composer deploy for prod
 ```
 composer install --no-dev --optimize-autoloader
 ```
