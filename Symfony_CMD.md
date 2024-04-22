@@ -11,10 +11,8 @@ symfony new my_project_dir --version="6.3.*" -webapp
 
 Voir WEBPACK/Encore
 
-composer require symfony/stimulus-bundle
 composer require symfony/ux-chartjs
 composer require symfony/ldap
-composer require --dev symfony/maker-bundle
 
 symfony make:controller Home
 ```
