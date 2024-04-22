@@ -22,7 +22,7 @@ symfony make:controller Home
 composer require symfony/webpack-encore-bundle
 npm install
 npm install sass-loader sass webpack --save-dev
-npm install file-loader@^6.0.0 --save-dev
+npm install file-loader --save-dev
 
 ==> add to webpack.config.js :
 .copyFiles({
