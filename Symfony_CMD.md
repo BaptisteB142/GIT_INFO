@@ -14,7 +14,7 @@ Voir WEBPACK/Encore
 composer require symfony/ux-chartjs
 composer require symfony/ldap
 
-symfony make:controller Home
+symfony console make:controller Home
 ```
 
 - Webpack/Encore
