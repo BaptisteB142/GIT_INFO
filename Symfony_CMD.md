@@ -98,9 +98,9 @@ C:\xampp\php\php.ini
 => ex : extension=php_intl.dll
 ```
 
-## Vérification update et version NPM
+## MAJ des packages NPM
 
-- Installer globalement le package
+- Installer globalement le package pour vérifier les versions du package.json
 ```
 npm install -g npm-check-updates
 ```
@@ -110,6 +110,6 @@ ncu
 ```
 - Mettre à jour package.json & package-lock.json
 ```
-ncu
+ncu -u
 npm install
 ```
