@@ -21,7 +21,7 @@ Creating first controller
 php bin/console make:controller TestController
 ```
 
-##Dependancies for Authentification
+## Dependancies for Authentification
 
 Google authentification
 ```
