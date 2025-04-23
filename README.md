@@ -37,3 +37,5 @@ git remote add origin https://github.com/BaptisteB142/GIT.git
 git branch -M main
 
 git push -u origin main
+
+# test pour exo git fetch + diff
